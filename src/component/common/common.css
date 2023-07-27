@@ -1,0 +1,8 @@
+.lang{
+    cursor: pointer;
+    transition: 0.5s all;
+}
+.lang:hover{
+    color: orange;
+    transition: 0.5s all;
+}

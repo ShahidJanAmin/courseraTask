@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.blue-light{
+  background-color: #287efa;
+}
+.color-white{
+  color: white;
+}
+.color-dark-blue{color:#1250aa}
+.nav-link{
+  color: white;
+  padding: 5px;
+}
+.nav-link:hover{
+  color: white;
+  border-radius: 10%;
+  border-bottom: 1px solid white;
+}
+.logo{
+  color:white;
+  transition: 0.6s linear;
+  padding: 10px;
+}
+.logo:hover{
+  text-decoration: none;
+  color: white;
+  border-radius: 50%;
+  border-bottom: 1px solid white;
+  transition: 0.6s linear;
+}
+
+.blue-dark{
+  background: #1250aa;
+}
+
+.black-50{
+  background: rgba(0, 0, 0, 0.6);
+}
+.black-70{
+  background: rgba(0, 0, 0, 0.7);
+}
+.bg-dark-blue-50{
+  background: #023681;
+  transition: 0.5s all;
+}
+.bg-none-animation{
+  transition: 0.5s all;
+}
+.bg-orange{
+  background: orange;
+}
+@media only screen and (max-width: 768px) {
+  .bg-none-animation{ 
+      background: #023681;
+      transition: 0.5s all;
+  }
+  }
+.color-blue-light{
+  color: #287efa;;
+}
+
+/* for btn hover */
+.card-body{
+  z-index: 111;
+}
+.hover-text:after{
+  background: #287efa;
+  content: "";
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: all .9s;
+  width: 100%;
+  overflow: hidden;
+}
+
+.hover-text:hover{
+  color: #fff;
+}
+.hover-text:hover h3{
+  color:white;
+  border-radius: 50%;
+  padding-bottom: 5px;
+  border-bottom: 1px solid white;
+}
+.hover-text:hover:after{
+  height: 100%;
+  z-index: -1;
+}
